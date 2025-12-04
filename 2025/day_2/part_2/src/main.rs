@@ -19,7 +19,7 @@ fn is_invalid_id(number: u64) -> bool {
 }
 
 fn main() {
-    let input = fs::read_to_string("/home/borje/Documents/CODING/Personal/personal/advent_of_code/2025/day_2/part_2/src/puzzle_input.txt").unwrap();
+    let input = fs::read_to_string("src/puzzle_input.txt").unwrap();
     let mut invalid_ids: Vec<u64> = vec![];
     for line in input.lines() {
         if line.is_empty() {

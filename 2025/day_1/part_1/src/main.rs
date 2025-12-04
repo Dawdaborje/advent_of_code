@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let input = fs::read_to_string("/home/borje/Documents/CODING/Personal/personal/advent_of_code/2025/day_1_secret_entrance/src/puzzle_input.txt").unwrap();
+    let input = fs::read_to_string("/home/borje/Documents/CODING/Personal/personal/advent_of_code/2025/day_1/part_1/src/puzzle_input.txt").unwrap();
 
     let mut pos = 50;
     let mut count = 0;
